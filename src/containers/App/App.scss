@@ -1,0 +1,21 @@
+.app {
+  .brand {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    display: inline-block;
+    background: #f8f8f8 url('../Home/logo.png') no-repeat center center;
+    width: 210px;
+    height: 51px;
+    background-size: 80%;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+  }
+  nav :global(.fa) {
+    font-size: 2em;
+    line-height: 20px;
+  }
+}
+.appContent {
+  margin: 63px 0 50px; // for fixed navbar
+}
